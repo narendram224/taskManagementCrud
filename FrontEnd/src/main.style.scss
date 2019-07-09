@@ -1,0 +1,30 @@
+// this is our global scss files
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Nunito:400,700');
+
+$turquides:#44ddd0;
+$green:#27d7a1;
+
+$lightgreen:#45f69e;
+$light:#f8f8f8;
+
+$dark_geen:rgb(0,100,80);
+
+$family-sans-serif:"Nunito ",sans-serif;
+
+$primary:$green;
+
+$link:$lightgreen;
+
+$control-border-width:2px;
+$input-border-color:transparent;
+$input-shadow:none;
+
+html{
+    background: linear-gradient(to right top,$turquides,$green);
+    
+}
+
+html,body{
+    height: 100%;
+    
+}

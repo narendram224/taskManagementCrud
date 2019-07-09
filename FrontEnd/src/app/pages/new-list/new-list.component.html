@@ -1,0 +1,16 @@
+<div class="columns is-centered">
+  <div class="model-box">
+    <h1 class="title">
+      create new task
+    </h1>
+    <div class="field ">
+      <p class="control is-expanded">
+        <input class="input has-background-light" #listTitleInput type="text" placeholder="Find a repository">
+      </p>
+    </div>
+    <div class="buttons is-right">
+      <button class="button is-primary is-medium has-text-white" routerLink="/">cancel</button>
+      <button class="button is-primary is-medium has-text-white"  (click)="sendTitle(listTitleInput.value) ">create</button>
+    </div>
+  </div>
+</div>
